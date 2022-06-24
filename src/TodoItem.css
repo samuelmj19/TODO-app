@@ -1,0 +1,58 @@
+.Todo-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CAF0F8;
+    color: #000;
+    font-weight: bold;
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: 40px 0;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+.fa-check{
+    font-size: 2rem;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    background-color: #0096c7;
+    color: #CAF0F8;
+    padding: 5px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+.fa-check:hover{
+    transform: scale(1.2);
+}
+.fa-check.active{
+    color: #0F0;
+}
+.Todo-list-text{
+    font-size: 1.2rem;
+    color: #023E8A;
+}
+.Todo-list-text.active{
+    text-decoration: line-through;
+    color: #48CAE4;
+}
+.fa-xmark{
+    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+    top: -15px;
+    background-color: #0096c7;
+    color: #CAF0F8;
+    padding: 4px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+.fa-xmark:hover{
+    color: #F00;
+    transform: scale(1.2);
+}
